@@ -22,52 +22,31 @@
             <router-link class="hover:border-b-2 border-black text-gray-700 hover:text-black" to="/">Resume</router-link>
           </li>
           <li class="mb-4">
-            <router-link class="hover:border-b-2 border-black text-gray-700 hover:text-black" to="/">Projects</router-link>
+            <router-link class="hover:border-b-2 border-black text-gray-700 hover:text-black" to="/projects">Recent Projects</router-link>
           </li>
           <li class="mb-4">
-            <router-link class="hover:border-b-2 border-black text-gray-700 hover:text-black" to="/">Contact Me</router-link>
+            <router-link class="hover:border-b-2 border-black text-gray-700 hover:text-black" to="/contact">Contact Me</router-link>
           </li>
         </ul>
       </nav>
     </div>
   
     <main class="bg-yellow-300 col-span-3">
-      <div>
-        <a href="#">Log in</a>
-        <a href="#">Sign up</a>
-      </div>
 
-      <header>
-        <h2>Recipes</h2>
-        <h3>For Ninjas</h3>
-      </header>
+      <router-view />  
 
-      <div>
-        <h4>Latest Recipes</h4>
-  
-        <div>
-          <!-- cards go here -->
-          <div> 
-            <img src="img/stew.jpg" alt="stew">
-            <div>
-              <span>5 Bean Chili Stew</span>
-              <span>Recipe by Mario</span>
-            </div>
-          </div>
-        </div>
-
-        <h4>Most Popular</h4>
-
-        <div>
-          <!-- cards go here -->
-        </div>
-      </div>
-
-      <div>
-        <div>Load more</div>
-      </div>    
     </main>
   </div>
+  
+  <div class="grid grid-cols-4 mx-12"> 
+    <div class="col-span-1 text-right"></div>
+    <div class="col-span-3 flex justify-start">      
+      <div class="text-gray-700">
+        This website was built with <a href="https://vuejs.org/" target="_blank" class="text-gray-700 font-semibold hover:text-black hover:border-b border-black">Vue.js</a> and <a href="https://tailwindcss.com/" target="_blank" class="text-gray-700 font-semibold hover:text-black hover:border-b border-black">TailwindCSS</a>.       
+      </div>
+    </div>
+  </div>
+
 </template>
 
 <style>
