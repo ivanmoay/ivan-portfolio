@@ -2,6 +2,7 @@
     <div class="px-6"> 
         <Card 
             header="Material Management Office Monitoring System" 
+            :tools="['laravel','bootstrap']"
             github="www.google.com"
             link="www.google.com"
             contentText="An ongoing project for the MMO office used for keeping track of inventory, purchase orders, and
