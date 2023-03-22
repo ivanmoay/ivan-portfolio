@@ -1,6 +1,6 @@
 <template>
-  <div class="grid grid-cols-4 mx-12 mt-8 mb-4"> 
-    <div class="col-span-1 text-right">
+  <div class="md:grid grid-cols-4 mx-12 mt-8 mb-4"> 
+    <div class="col-span-1 text-right mb-2 md:mb-0">
       <a href="#">
         <h1 class="text-4xl font-semibold text-gray-700 hover:text-black">Ivan Rey Moay</h1>
       </a>  
@@ -24,20 +24,20 @@
     </div>
   </div>
 
-  <div class="grid grid-cols-4 mx-12">
+  <div class="md:grid grid-cols-4 mx-12">
     <div class="col-span-1 text-right">
       <nav class="mr-4">
         <ul class="text-lg font-semibold">
-          <li class="mb-4">
+          <li class="md:mb-4">
             <router-link class="hover:border-b-2 border-black text-gray-700 hover:text-black" to="/">About Me</router-link>
           </li>
-          <li class="mb-4">
+          <li class="md:mb-4">
             <router-link class="hover:border-b-2 border-black text-gray-700 hover:text-black" to="/projects">Recent Projects</router-link>
           </li>
-          <li class="mb-4">
+          <li class="md:mb-4">
             <router-link class="hover:border-b-2 border-black text-gray-700 hover:text-black" to="/experience">Work Experience</router-link>
           </li>
-          <li class="mb-4">
+          <li class="md:mb-4">
             <router-link class="hover:border-b-2 border-black text-gray-700 hover:text-black" to="/contact">Contact Me</router-link>
           </li>
         </ul>
@@ -54,7 +54,7 @@
   <div class="grid grid-cols-4 mx-12"> 
     <div class="col-span-1 text-right"></div>
     <div class="col-span-3 flex justify-start">      
-      <div class="text-gray-700 text-2xl">
+      <div class="text-gray-700 md:text-2xl text-lg">
         This website was built with <a href="https://vuejs.org/" target="_blank" class="text-gray-700 font-semibold hover:text-black hover:border-b border-black">Vue.js</a> and <a href="https://tailwindcss.com/" target="_blank" class="text-gray-700 font-semibold hover:text-black hover:border-b border-black">TailwindCSS</a>.       
       </div>
     </div>

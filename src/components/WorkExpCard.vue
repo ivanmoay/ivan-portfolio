@@ -1,8 +1,8 @@
 <template>
     <div class="border-b-2 mb-4 pb-4">
-        <div class="text-2xl text-black mb-2">{{ header }}</div>
-        <div class="text-gray-700 text-2xl mb-2 underline">{{ subText }}</div>
-        <div class="text-gray-700 text-2xl mb-2">{{ contentText }}</div>        
+        <div class="md:text-2xl text-lg text-black mb-2">{{ header }}</div>
+        <div class="text-gray-700 md:text-2xl text-lg mb-2 underline">{{ subText }}</div>
+        <div class="text-gray-700 md:text-2xl text-lg mb-2">{{ contentText }}</div>        
     </div>
 </template>
 

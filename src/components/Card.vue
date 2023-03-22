@@ -1,6 +1,6 @@
 <template>
     <div class="border-b-2 mb-4 pb-4">
-        <div class="text-2xl text-black mb-2">{{ header }}</div>
+        <div class="md:text-2xl text-lg text-black mb-2">{{ header }}</div>
         <div class="flex space-x-2 mb-2">
             <!-- <img src="../assets/linkedIn.png" alt="linkedIn" class="w-6 h-6">
             <img src="../assets/linkedIn.png" alt="linkedIn" class="w-6 h-6">
@@ -40,7 +40,7 @@
                </div>                  
             </div>
         </div>
-        <div class="text-gray-700 text-2xl mb-2">{{ contentText }}</div>
+        <div class="text-gray-700 md:text-2xl text-lg mb-2">{{ contentText }}</div>
         <div class="flex space-x-2 justify-center mb-2">
             <a :href="mGitHub" target="_blank">
                 <img src="../assets/github-mark/github-mark.png" alt="linkedIn" class="w-8 h-8">

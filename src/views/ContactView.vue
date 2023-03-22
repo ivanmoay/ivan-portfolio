@@ -1,5 +1,5 @@
 <template>
-    <div class="px-6 text-gray-700 text-2xl container">
+    <div class="px-6 text-gray-700 md:text-2xl text-lg container">
         <div class="flex flex-col items-center border-b-2 mb-4 pb-4">
             <div class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
