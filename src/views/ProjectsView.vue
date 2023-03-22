@@ -19,7 +19,7 @@
         <Card 
             header="Etecon App" 
             :tools="['laravel','tailwind']"
-            github="https://github.com/ivanmoay/etecon-app"
+            github="https://github.com/ivanmoay/etecon"
             link=""
             contentText="A web application made for a client mainly to generate hospice forms. The client can also make video
                         courses with an exam after completion of a course."
